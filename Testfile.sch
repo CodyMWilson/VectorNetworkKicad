@@ -28,6 +28,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:Testfile-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -42,4 +43,15 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L 74AHC1G04 U?
+U 1 1 570C81FC
+P -1600 -3500
+F 0 "U?" H -1405 -3385 50  0000 C CNN
+F 1 "74AHC1G04" H -1300 -3650 50  0000 C CNN
+F 2 "" H -1600 -3500 50  0000 C CNN
+F 3 "" H -1600 -3500 50  0000 C CNN
+	1    -1600 -3500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
